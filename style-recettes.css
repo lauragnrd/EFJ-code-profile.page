@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+#banner {
+	width: 100vw;
+	height: 250px;
+	background-color: papayawhip;
+	background-size: cover;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.bannera{
+	justify-content: space-around;
+	font-size: 35px;
+	position: relative;
+	color: darkred;
+}
+.bannera:hover{
+	transform: scale(1.05)
+}
+
+nav {
+	margin: 30px;
+}
+
+
+#bannerul{
+	height: 200px;
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-family: chivo;
+	color: green;
+}
+
+.bannerli .bannera{
+	display: block;
+	text-align: center;
+	padding: 14px 70px;
+	font-size: 30px;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+#cookstudentfood a {
+	font-size: 20px;
+	color: darkred;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+li {
+	display: inline;
+	justify-content: space-evenly;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+
+h1 {
+	color: darkred;
+	height: 40px;
+	border: 3px solid darkred;
+	font-size: 20px;
+	margin-top: 10px;
+	padding-top: 6px;
+}
+
+
+
+a {
+	text-decoration: none;
+	background-color:  none;
+	color: #FFC9B3;
+}
+a:hover {color: #FFC9B3;}
+
+body {
+	text-align: center;
+	background-image: url(images/fond.jpg);
+	font-family: 'Cormorant Garamond', serif;
+	display:  flex;
+	flex-direction:  column;
+	align-items: center;
+}
+
+#carnet{
+	font-size: 15px;
+
+}
+
+.recette {
+	background-color: white;
+	width: 550px; 
+	margin: 30px; 
+	padding: 10px 20px;
+	border: 5px solid floralwhite;
+	box-shadow: 2px 2px 2px #FFC9B3;
+}
+
+
+
+div.cotegauche:hover{
+	transform: scale(1.04);
+}
+
+
+
+#carnet {
+	background-color: white;
+	width: 150px; 
+	margin: 1px; 
+	padding: 10px 20px;
+	border: 5px solid #FFC9B3;
+	box-shadow: 2px 2px 2px floralwhite;
+}
+
+i {
+	width:  40px;
+	font-size: 30px;
+
+
+}
+
+
+h2 {
+	color: #5C4C49;
+	font-weight: 900;
+}
+
+p{
+	margin: 2px;
+}
+
+
+
+#footer{
+	background-color: papayawhip;
+	color: darkred;
+	text-align: center;
+	margin-top: 40px;
+	height:  200px;
+	justify-content: center;
+	justify-items: center;
+	margin: 0;
+	width: 100%;
+}
+
+#footer a {
+	text-decoration: none;
+	color: darkred;
+	font-size: 20px;
+	justify-items: center;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+#reseaux p {
+	display: inline;
+}
+
+.fa-brands:hover{
+	transform: scale(1.25);
+}
+
+i {
+	width:  40px;
+	font-size: 30px;
+
+}
+#contact{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 450px;
+	margin: auto;
+}
+

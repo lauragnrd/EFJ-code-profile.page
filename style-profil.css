@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+#banner {
+	width: 100vw;
+	height: 250px;
+	background-color: papayawhip;
+	background-size: cover;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.bannera{
+	justify-content: space-around;
+	font-size: 35px;
+	position: relative;
+	color: darkred;
+}
+.bannera:hover{
+	transform: scale(1.05)
+}
+
+nav {
+	margin: 30px;
+}
+
+#bannerul{
+	height: 200px;
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-family: chivo;
+	color: green;
+}
+
+.bannerli .bannera{
+	display: block;
+	text-align: center;
+	padding: 14px 70px;
+	font-size: 30px;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+li {
+	display: inline;
+	justify-content: space-evenly;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+h1 {
+	color:  #008080;
+}
+
+img {
+	border-radius: 47%
+}
+
+a {
+	text-decoration: none;
+	background-color:  none;
+	color: #008080;
+}
+
+#cookstudentfood {
+	padding: 1px;
+	margin: 0.5px;
+	background-color:#008080 ;
+	color: white;
+	border-radius: 3px;
+	transform: scale(1.02);
+}
+
+a#cookstudentfood:hover {
+	color: white;
+	background-color: #FFA500;
+}
+
+a:hover {color: #FFA500;}
+
+
+.liens{
+	font-size: 20px;
+}
+
+body {
+	text-align: center;
+	background-color:  #FFF5EE;
+	font-family: 'Cormorant Garamond', serif;
+	display:  flex;
+	flex-direction:  column;
+	align-items: center;
+}
+
+.content {
+	background-color: white;
+	width: 500px; 
+	margin: 30px; 
+	padding: 10px 20px;
+	border: 5px solid #008080;
+	box-shadow: 2px 2px 1px #20B2AA;
+	font-size: 20px;
+}
+.content:hover{
+	transform: scale(1.04);
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {color: #FFA500;}
+
+p{
+	margin: 2px;
+}
+
