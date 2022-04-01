@@ -97,7 +97,7 @@ a:hover {color: #FFA500;}
 
 body {
 	text-align: center;
-	background-image: url(images/FondPlantesClair.gif);
+	background-image: url(FondPlantesClair.gif);
 	font-family: 'Cormorant Garamond', serif;
 	display:  flex;
 	flex-direction:  column;
