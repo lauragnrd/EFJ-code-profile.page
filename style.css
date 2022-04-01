@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+#banner {
+	width: 100vw;
+	height: 250px;
+	background-color: papayawhip;
+	background-size: cover;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.bannera{
+	justify-content: space-around;
+	font-size: 35px;
+	position: relative;
+	color: darkred;
+}
+.bannera:hover{
+	transform: scale(1.05)
+}
+
+
+#bannerul{
+	height: 100%;
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-family: chivo;
+	color: darkred;
+}
+
+.bannerli .bannera{
+	display: block;
+	text-align: center;
+	padding: 14px 70px;
+	font-size: 30px;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+li {
+	display: inline;
+	justify-content: space-evenly;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+#publication{
+	font-size: 20px;
+	color: darkred;
+	justify-items: center;
+}
+
+h2{
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+}
+
+#droite{
+	justify-content: flex-end;
+	font-size: 30px;
+	background-color: white;
+	text-align: center;
+	border: 10px solid papayawhip;
+	color: papayawhip;
+	position: relative;
+	bottom: 10px ;
+	left: 900px ;
+	width: 300px;
+	padding: 20px 10px;
+	margin: 30px;
+}
+
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card{
+	background-color: papayawhip;
+	width: 300px;
+	padding: 20px;
+	margin: 20px;
+	justify-items: center;
+	text-align: center;
+	colo"r: darkred;
+}
+
+.card img{
+	width: 90%;
+	display: center;
+	border-radius: 5px;
+}
+
+.card img:hover{
+	transform: scale(1.05);
+}
+
+.card h3{
+	color: darkred;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+.publication{
+	color: papayawhip;
+}
+
+
+
+#footer{
+	background-color: papayawhip;
+	color: darkred;
+	text-align: center;
+	margin-top: 40px;
+	height:  200px;
+	justify-content: center;
+	justify-items: center;
+	margin: 0;
+}
+
+#footer a {
+	text-decoration: none;
+	color: darkred;
+	font-size: 20px;
+	justify-items: center;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+#reseaux p {
+	display: inline;
+}
+
+.fa-brands:hover{
+	transform: scale(1.25);
+}
+
+i {
+	width:  40px;
+	font-size: 30px;
+
+}
+
+.LireLaSuite a {
+	color: darkred;
+	font-size: 20px;
+}
+
+#contact{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 450px;
+	margin: auto;
+}
