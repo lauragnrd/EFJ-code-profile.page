@@ -57,6 +57,8 @@ nav {
 	font-size: 20px;
 	color: darkred;
 	margin : 5px;
+	padding-left: 8px;
+    	padding-right: 8px;
 }
 
 ul {
